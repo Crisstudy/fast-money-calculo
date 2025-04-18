@@ -9,3 +9,10 @@ function calcularJuros() {
 
     var juros = (valorAcrescimo / capitalInicial) * 100; res.innerHTML = `Cliente: ${nome} <br> Taxa de Juros: ${juros.toFixed(2)}%`;
 }
+
+function limparFormulario() {
+    document.getElementById('nome').value = '';
+    document.getElementById('capitalInicial').value = '';
+    document.getElementById('acrescimo').value = '';
+    document.getElementById('res').innerHTML = '';
+}
