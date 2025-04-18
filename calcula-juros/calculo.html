@@ -13,16 +13,14 @@
         <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" placeholder="Digite o nome do cliente">
-            <label for="dataInicial">Data ínicio</label>
-            <input type="date" name="dataInicial" id="dataInicial">
         </div>
         <div class="form-group">
             <label for="capitalInicial">Capital inicial (R$):</label>
             <input type="number" name="capital" id="capitalInicial" placeholder="Digite o valor do capital inicial">
         </div>
         <div class="form-group">
-            <label for="capitalDevolvido">Capital devolvido (R$)</label>
-            <input type="number" name="capitalDvd" id="capitalDevolvido" placeholder="Digite o valor à devolver">
+            <label for="acrescimo">Valor do acréscimo (R$)</label>
+            <input type="number" name="valorAcr" id="acrescimo" placeholder="Digite o valor do acréscimo">
         </div>
         <button onclick="calcularJuros()">Calcular Juros</button>
         <div id="res" class="result"></div>
