@@ -30,6 +30,26 @@ body {
     box-sizing: border-box;
 }
 
+.btn-calcular {
+    background-color: rgb(14, 171, 14);
+    color: black;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0,3s ease;
+}
+
+.btn-limpar {
+    background-color: rgb(175, 5, 5);
+    color: black;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0,3s ease;
+}
+
 .result{
     margin-top: 20px;
     padding: 10px;
